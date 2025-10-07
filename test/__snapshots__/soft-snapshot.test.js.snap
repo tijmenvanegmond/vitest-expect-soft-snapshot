@@ -1,8 +1,8 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`expect.soft with toMatchSnapshot should work but might not > content-v1 1`] = `
+exports[`expect.soft with toMatchSnapshot stops execution on failure > content-v1 1`] = `
 {
   "data": "This is some content",
-  "timestamp": "2025-10-07T09:15:33.173Z",
+  "timestamp": "2025-10-07T09:16:19.273Z",
 }
 `;

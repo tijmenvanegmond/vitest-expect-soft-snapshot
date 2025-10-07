@@ -1,7 +1,7 @@
 import { it, expect } from 'vitest'
 
 
-it('expect.soft with toMatchSnapshot should work but might not', () => {
+it('expect.soft with toMatchSnapshot stops execution on failure', () => {
     // This test demonstrates the issue where expect.soft doesn't work properly with toMatchSnapshot
     const content = {
          data: 'This is some content', 
