@@ -2,15 +2,7 @@
 
 exports[`expect.soft with toMatchSnapshot should work but might not > content-v1 1`] = `
 {
-  "config": {
-    "enabled": true,
-    "features": [
-      "feature1",
-      "feature2",
-    ],
-  },
-  "data": "Content for version 1",
-  "timestamp": "2025-10-07T09:10:44.670Z",
-  "version": 1,
+  "data": "This is some content",
+  "timestamp": "2025-10-07T09:15:33.173Z",
 }
 `;
