@@ -1,0 +1,15 @@
+{
+    "name": "vitest-expect-soft-snapshot",
+    "version": "1.0.0",
+    "description": "Minimal reproduction to demonstrate that expect.soft doesn't work with toMatchSnapshot in Vitest",
+    "type": "module",
+    "scripts": {
+        "test": "vitest",
+        "test:ui": "vitest --ui",
+        "test:run": "vitest run"
+    },
+    "devDependencies": {
+        "@vitest/ui": "4.0.0-beta.17",
+        "vitest": "4.0.0-beta.17"
+    }
+}
